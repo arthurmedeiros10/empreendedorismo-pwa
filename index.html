@@ -23,7 +23,6 @@
         <ul class="nav-list">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
-          <li><a href="#carrinho" class="nav-link">Carrinho</a></li>
           <li><a href="#sobre" class="nav-link">Sobre</a></li>
           <li><a href="#contato" class="nav-link">Contato</a></li>
         </ul>
@@ -42,7 +41,7 @@
     <div class="hero-content">
       <h1 class="hero-title">Cantinho dos <span>Cookies</span></h1>
       <p class="hero-sub">Feitos com pixel e muito carinho.</p>
-      <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+      <a href="#cardapio" class="btn btn-primary">Ver Preços</a>
     </div>
     <div class="hero-pixel">
       <div class="pixel-cookie large"></div>
@@ -55,7 +54,7 @@
   <section id="cardapio" class="cardapio section">
     <div class="container">
       <h2 class="section-title">Cardápio</h2>
-      <p class="section-sub">Escolha o seu sabor favorito.</p>
+      <p class="section-sub">Confira nossos sabores e preços.</p>
 
       <div class="filters">
         <button class="filter-btn active" data-filter="todos">Todos</button>
@@ -69,28 +68,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Carrinho (modal lateral) -->
-  <div class="cart-overlay" id="cart-overlay"></div>
-  <aside class="cart-sidebar" id="carrinho">
-    <div class="cart-header">
-      <h2 class="cart-title">Carrinho</h2>
-      <button class="cart-close" id="cart-close" aria-label="Fechar carrinho">✕</button>
-    </div>
-    <div class="cart-items" id="cart-items">
-      <!-- Itens injetados via JS -->
-      <p class="cart-empty">Seu carrinho está vazio.</p>
-    </div>
-    <div class="cart-footer">
-      <div class="cart-total">
-        <span>Total:</span>
-        <span class="cart-total-value" id="cart-total">R$ 0,00</span>
-      </div>
-      <button class="btn btn-primary cart-checkout" id="cart-checkout" disabled>
-        Finalizar Pedido
-      </button>
-    </div>
-  </aside>
 
   <!-- Sobre -->
   <section id="sobre" class="sobre section">
